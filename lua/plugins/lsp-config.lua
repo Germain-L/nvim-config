@@ -32,7 +32,8 @@ return {
           "svelte",
           "tailwindcss",
           "terraformls",
-          "templ"
+          "templ",
+          "yamlls"
         }
       })
     end
@@ -63,6 +64,7 @@ return {
       lspconfig.tailwindcss.setup({})
       lspconfig.terraformls.setup({})
       lspconfig.templ.setup({})
+      lspconfig.yamlls.setup({})
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
