@@ -33,7 +33,8 @@ return {
           "tailwindcss",
           "terraformls",
           "templ",
-          "yamlls"
+          "yamlls",
+          "rust_analyzer"
         }
       })
     end
